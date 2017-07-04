@@ -1,0 +1,31 @@
+{
+  "project_id": "",
+  "consumer_key": "",
+  "consumer_secret": "",
+  "access_token_key": "",
+  "access_token_secret": "",
+  "twitter_id": "",
+  "tz": "America/Los_Angeles",
+  "event_msg": [
+    ["🐶", "🐕", "🐾", "🐩"], " DogpatchJS is tonight (6:30pm) @ Spark Social.\n",
+    [
+      [["🍔", "🍕", "🍻", "🍜", "🍡", "🌮"], " Tasty street food w/ friends!\n"],
+      [["👋", "❤️", "🏳️‍🌈", "🖖", "🌎"], " All are welcome.\n"],
+      [["🗨️", "💡", "👩‍💻", "👨‍💻", "💾", "⚡️"], " Talk, learn, and hack.\n"]
+    ],
+    ["⬇️", "⤵️", "🆒", "🆗"], " DM me an emoji to RSVP.\n\n"
+  ],
+  "cancel_msg": [
+    "We're skipping DogpatchJS tonight since fewer than 4 people RSVP'd. ",
+    ["😢", "😴", "💀"],
+    " See you next week!"
+  ],
+  "confirm_msg": [
+    ["🎉", "🙌", "🔜"],
+    " We're on for 6:30pm! RSVPs: "
+  ],
+  "huh_dm_msg": "🤔 please send an emoji if you'd like to RSVP!",
+  "ok_dm_msg": "🎉 see you there! (send me \"nvm\" if you change your mind)",
+  "ok_nvm_dm_msg": "😢 ok",
+  "min_rsvp": 4
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dogpack",
+  "description": "A Twitter bot for managing DogpatchJS",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/datastore": "^1.0.2",
+    "emoji-regex": "^6.4.2",
+    "lodash.sample": "^4.2.1",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "oauth": "^0.9.15",
+    "twitter": "^1.7.1"
+  }
+}

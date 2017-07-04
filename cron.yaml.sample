@@ -1,0 +1,10 @@
+cron:
+- description: Post event tweet
+  url: /publish/postEvent
+  schedule: every monday 11:00
+  timezone: America/Los_Angeles
+
+- description: Tally responses and post update tweet
+  url: /publish/postRSVPs
+  schedule: every monday 17:00
+  timezone: America/Los_Angeles
