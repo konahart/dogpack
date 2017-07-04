@@ -23,7 +23,7 @@ Dogpack is hosted on [Google Cloud Functions](https://cloud.google.com/functions
    1. Run `./scripts/setupTwitter.js` and open http://localhost:3000 in a web browser.
    1. Click the link and authorize your Twitter app.
    1. Copy the values of `access_token_key`, `access_token_secret`, and `twitter_id` into your `config.json`.
-   1. Note the value of "Suggested webhook name` for the following step.
+   1. Note the value of "Suggested webhook name" for the following step.
       
       The webhook name should be a long random string (which is difficult to guess). We rely on obscurity to prevent unauthorized calls to the webhook endpoint because of [a shortcoming in GCF which prevents checking request signatures](https://issuetracker.google.com/issues/36252545).
 
