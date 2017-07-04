@@ -27,7 +27,7 @@ http.createServer(function(req, res) {
       '/': function(req, res) {
         const body = `<a href="${authURL}">Authorize with Twitter</a>`
         res.writeHead(200, {
-          'Content-Length': body.length,
+          'Content-Length': Buffer.byteLength(body, 'utf8'),
           'Content-Type': 'text/html',
         })
         res.end(body)
@@ -54,7 +54,7 @@ http.createServer(function(req, res) {
 
             const body = `<meta charset="utf-8"><p>Success! Updated config:</p><pre>${JSON.stringify(config, null, 2)}</pre><p>Suggested webhook name: hook-${crypto.randomBytes(16).toString('hex')}</p>`
             res.writeHead(200, {
-              'Content-Length': body.length,
+              'Content-Length': Buffer.byteLength(body, 'utf8'),
               'Content-Type': 'text/html',
             })
             res.end(body)
