@@ -10,7 +10,7 @@ const config = require('./config.json')
 function randomize(template) {
   // Randomize a template consisting of segments to concatenate and randomize
   // at alternating depths. For reference:
-  // ["concantenate", ["random", ["concatenate"]], "concatenate"]
+  // ["concatenate", ["random", ["concatenate"]], "concatenate"]
   function visit(node, pick) {
     if (typeof node === 'string') {
       return node
