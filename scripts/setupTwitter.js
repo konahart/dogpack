@@ -6,7 +6,7 @@ const url = require('url')
 
 const callbackURL = 'http://localhost:3000/callback'
 
-const config = require('./config.json')
+const config = require('../config.json')
 
 const oa = new OAuth(
   'https://api.twitter.com/oauth/request_token',
