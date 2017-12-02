@@ -2,7 +2,7 @@
 const process = require('process')
 const Twitter = require('twitter')
 
-const config = require('./config.json')
+const config = require('../config.json')
 
 const client = new Twitter(config)
 
